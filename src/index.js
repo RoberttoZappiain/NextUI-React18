@@ -9,7 +9,7 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(
   <StrictMode>
     <NextUIProvider>
-      <Container lg gap={2} css={{ mt:'$10' }}>
+      <Container  lg gap={2} css={{ mt:'$10', backgroundColor:'$accents0'}}>
         <App />
       </Container>
     </NextUIProvider>
